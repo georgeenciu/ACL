@@ -1,24 +1,28 @@
 {
-    "name": "myclabs/acl",
-    "description": "ACL library for Doctrine",
-    "keywords": ["acl", "doctrine", "permission"],
-    "homepage": "https://github.com/myclabs/ACL",
-    "license": "MIT",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "MyCLabs\\ACL\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\MyCLabs\\ACL\\": "tests/"
-        }
-    },
-    "require": {
-        "php": ">=5.4.0",
-        "doctrine/orm": "2.5.*@dev"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "myclabs/acl",
+  "description": "ACL library for Doctrine",
+  "keywords": [
+    "acl",
+    "doctrine",
+    "permission"
+  ],
+  "homepage": "https://github.com/myclabs/ACL",
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "MyCLabs\\ACL\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\MyCLabs\\ACL\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "doctrine/orm": "2.*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
